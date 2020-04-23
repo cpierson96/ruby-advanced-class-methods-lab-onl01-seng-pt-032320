@@ -32,12 +32,12 @@ class Song
   def self.create_by_name(name)
     song = Song.create
     song.name = name
-    song 
+    song
   end
 
   def self.find_by_name(name)
-    song = Song.create 
-    song.name = name 
+    song = Song.create
+    song.name = name
     song.find 
   end
 
