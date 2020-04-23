@@ -23,9 +23,8 @@ class Song
     return song
   end
 
-  def self.new_by_name(name = "The Middle")
+  def self.new_by_name(name = "Blank Space")
       @name = name
-  
   end
 
   def self.create_by_name
