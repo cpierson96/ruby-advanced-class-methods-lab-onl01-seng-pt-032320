@@ -3,7 +3,7 @@ class Song
   @@all = []
 
   def initialize
-    @name = name 
+    @name = name
     @artist_name = artist_name
     save 
 
