@@ -3,7 +3,8 @@ class Song
   @@all = []
 
   def initialize
-    
+    @name = name 
+    @artist_name = artist_name 
 
   end
 
@@ -47,6 +48,7 @@ class Song
   end
 
   def self.new_from_filename
+    self.name.split("")
   end
 
   def self.create_from_filename
