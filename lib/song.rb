@@ -17,7 +17,7 @@ class Song
   end
 
   def self.create
-    @@all.self 
+    @@all.save 
   end
 
   def self.new_by_name
@@ -39,6 +39,7 @@ class Song
   end
 
   def self.destroy_all
+
   end
 
 
